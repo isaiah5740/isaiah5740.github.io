@@ -1,0 +1,139 @@
+/*
+  CSS grid scaffolding provided by Erin Brown.
+  http://github.com/umiami-web-design/grid-templates
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed:500|PT+Sans');
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 16px;
+}
+
+#wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+img {
+  position: relative;
+  border: 5px solid rgb(31,38,94);
+  max-width: 600px;
+  min-width: 360px;
+}
+
+a {
+  color: rgb(86,147,94);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(75,35,111);
+}
+
+a:hover {
+  color: rgb(111,192,154);
+  background-color: rgb(25,64,141);
+    text-decoration: underline;
+}
+
+a:active {
+  color: rgb(209,23,23);
+}
+
+p {
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  color: rgba(33, 74, 123, 1.0);
+  font-family: 'Barlow Condensed', sans-serif;
+  font-weight: 500;
+}
+
+header h1 {
+  font-size: 72px;
+  margin-bottom: 0;
+}
+
+header h2 {
+  font-size: 36px;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+#reel section,
+#writing article,
+#resume section,
+#resume article {
+  margin-bottom: 50px;
+}
+
+#writing h3,
+#resume h3 {
+  margin: 0;
+}
+
+#writing p {
+  margin-top: 8px;
+}
+
+#resume p {
+    margin: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#resume .grid section,
+#resume .grid article {
+  margin-bottom: 0;
+}
+
+
+/*.grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-rows: 200px;
+            grid-auto-rows: auto;
+            grid-gap: 10px;
+            position: relative;
+            font-family: 'PT Sans', sans-serif;
+            margin-bottom: 30px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          }
+
+#content {
+  margin: 50px;
+  font-size: 20px;
+          }
+#education {
+  font-size: 25px;
+}
+#experience {
+  font-size: 25px;
+}
+#skills {
+  font-size: 25px;
+}
+#websites {
+  font-size: 25px;
+}
+#name {
+  position: relative;
+  text-align: center;
+}*/
